@@ -6,3 +6,5 @@ interface Todo {
 }
 
 type AddNewTodo = (text: string) => void
+
+type ToogleDone = (selectedTodo: Todo) => void
